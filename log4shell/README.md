@@ -58,6 +58,8 @@ For remediation steps, contact the vendor of each affected application.
 
 ## Usage Instructions
 
+Download the latest version here: [log4shell_deep_scan_0.3.zip](https://github.com/jovaldev/wolf-tools/raw/main/log4shell/releases/log4shell_deep_scan_0.3.zip).
+
 ### Windows
 
 #### Important Notes
