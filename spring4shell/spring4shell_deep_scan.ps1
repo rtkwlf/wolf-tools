@@ -188,7 +188,7 @@ function Check-Archive {
 
 Write-Output  @"
 --------------------------------------------------------------------------------
-            Arctic Wolf Spring4Shell Deep Scan (CVE-2022-22965) v0.1
+            Arctic Wolf Spring4Shell Deep Scan (CVE-2022-22965) v0.2
 --------------------------------------------------------------------------------
 Java applications that contain a vulnerable version of the Spring Framework and
 that are running on Java version 9 or greater may be subject to CVE-2022-22965.
@@ -326,7 +326,7 @@ and log file for details.
 }
 
   $i = 0
-  $json_string = "{`n  `"result`":`"$result`",`n  `"hostname`":`"$hostname`",`n  `"scan_ts`":`"$scan_ts`",`n  `"scan_v`":`"0.1`",`n  `"search_root`":`"$search_root_escaped`",`n  `"vulnerable_application_paths`": ["
+  $json_string = "{`n  `"result`":`"$result`",`n  `"hostname`":`"$hostname`",`n  `"scan_ts`":`"$scan_ts`",`n  `"scan_v`":`"0.2`",`n  `"search_root`":`"$search_root_escaped`",`n  `"vulnerable_application_paths`": ["
   foreach ($file in $vulnerable_java_apps) {
     $i += 1
     Write-Output "- $file"
@@ -360,7 +360,7 @@ and log file for details.
     Write-Output "- $file"
     $file_escaped = Escape-JSON $file
     $json_string += "`"$file_escaped`""
-    if ($i -lt $vulnerable_java_apps.length) {
+    if ($i -lt $vulnerable_java_executables.length) {
       $json_string += ", "
     }
   }
