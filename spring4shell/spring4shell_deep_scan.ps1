@@ -188,7 +188,7 @@ function Check-Archive {
 
 Write-Output  @"
 --------------------------------------------------------------------------------
-            Arctic Wolf Spring4Shell Deep Scan (CVE-2022-22965) v0.2
+            Arctic Wolf Spring4Shell Deep Scan (CVE-2022-22965) v0.3
 --------------------------------------------------------------------------------
 Java applications that contain a vulnerable version of the Spring Framework and
 that are running on Java version 9 or greater may be subject to CVE-2022-22965.
@@ -256,8 +256,9 @@ try {
   }
 } catch {
   Write-Log 'ERROR' $_
-  Write-Output $_
-  Write-Output "Result: ERROR"  
+  Write-Log 'Scan aborted due to error'
+  Write-Output 'ERROR' $_
+  Write-Output 'Scan aborted due to error'
   $error_encountered=$true
 }
 
@@ -265,13 +266,13 @@ try {
 # Output Results
 #
 
-if ($unreadable_java_apps.Length -eq 0 -and $vulnerable_java_apps.Length -eq 0) {
+if ($error_encountered -eq $false -and $unreadable_java_apps.Length -eq 0 -and $vulnerable_java_apps.Length -eq 0) {
   $result="PASS"
-} elseif ($vulnerable_java_apps.Length -gt 0 -and ($vulnerable_java_executables.Length -gt 0 -or $unreadable_java_executables.Length -gt 0)) {
+} elseif ($error_encountered -eq $false -and $vulnerable_java_apps.Length -gt 0 -and ($vulnerable_java_executables.Length -gt 0 -or $unreadable_java_executables.Length -gt 0)) {
   $result="FAIL"
-} elseif ($vulnerable_java_apps.Length -gt 0 -and $vulnerable_java_executables.Length -eq 0 -and $unreadable_java_executables.Length -eq 0) {
+} elseif ($error_encountered -eq $false -and $vulnerable_java_apps.Length -gt 0 -and $vulnerable_java_executables.Length -eq 0 -and $unreadable_java_executables.Length -eq 0) {
   $result="WARN"
-} elseif ($vulnerable_java_apps.Length -eq 0 -and $unreadable_java_apps.Length -gt 0) {
+} elseif ($error_encountered -eq $false -and $vulnerable_java_apps.Length -eq 0 -and $unreadable_java_apps.Length -gt 0) {
   $result="UNKNOWN"
 } else {
   $result="ERROR"
@@ -325,8 +326,13 @@ and log file for details.
 "@
 }
 
+  $json_string = "{`n  `"result`":`"$result`",`n  `"hostname`":`"$hostname`",`n  `"scan_ts`":`"$scan_ts`",`n  `"scan_v`":`"0.3`",`n  `"search_root`":`"$search_root_escaped`",`n  `"vulnerable_application_paths`": ["
+  
+  if ($vulnerable_java_apps.Length -gt 0) {
+    Write-Output "`nWARNING`nThe following vulnerable applications were found by this detection script:`n"
+  }
+  
   $i = 0
-  $json_string = "{`n  `"result`":`"$result`",`n  `"hostname`":`"$hostname`",`n  `"scan_ts`":`"$scan_ts`",`n  `"scan_v`":`"0.2`",`n  `"search_root`":`"$search_root_escaped`",`n  `"vulnerable_application_paths`": ["
   foreach ($file in $vulnerable_java_apps) {
     $i += 1
     Write-Output "- $file"
@@ -353,6 +359,10 @@ and log file for details.
     }
   }
   $json_string += "], `n  `"java9plus_paths`": ["
+
+  if ($vulnerable_java_executables.Length -gt 0) {
+    Write-Output "`nWARNING`nThe following vulnerable java executables were found by this detection script:`n"
+  }
 
   $i = 0
   foreach ($file in $vulnerable_java_executables) {

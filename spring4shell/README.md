@@ -74,7 +74,7 @@ We recommend the following steps:
 
 ## Usage Instructions
 
-Download the latest version here: [spring4shell_deep_scan_0.2.zip](https://github.com/rtkwlf/wolf-tools/raw/main/spring4shell/releases/spring4shell_deep_scan_0.2.zip).
+Download the latest version here: [spring4shell_deep_scan_0.3.zip](https://github.com/rtkwlf/wolf-tools/raw/main/spring4shell/releases/spring4shell_deep_scan_0.3.zip).
 
 
 ### Windows
@@ -163,7 +163,7 @@ or unknown application path entries as follows:
   "result": "PASS",
   "hostname":"DESKTOP-US1234", 
   "scan_ts":"2021-12-16T18:14:09.7897291-06:00", 
-  "scan_v":"0.2", 
+  "scan_v":"0.3", 
   "search_root":"C:\\",
   "vulnerable_application_paths": [],
   "unknown_application_paths": [],
@@ -183,7 +183,7 @@ Java 9+ or unknown Java version found on the system as follows:
   "result": "FAIL",
   "hostname":"DESKTOP-US1234", 
   "scan_ts":"2021-12-16T18:14:09.7897291-06:00", 
-  "scan_v":"0.2", 
+  "scan_v":"0.3", 
   "search_root":"C:\\",
   "vulnerable_application_paths": [ "C:\\Users\\user1234\\Downloads\\app.jar", "C:\\Users\\user1234\\Downloads\\app2.jar" ],
   "unknown_application_paths": [],
@@ -203,7 +203,7 @@ system as follows:
   "result": "WARN",
   "hostname":"DESKTOP-US1234", 
   "scan_ts":"2021-12-16T18:14:09.7897291-06:00", 
-  "scan_v":"0.2", 
+  "scan_v":"0.3", 
   "search_root":"C:\\",
   "vulnerable_application_paths": [ "C:\\Users\\user1234\\Downloads\\app.jar", "C:\\Users\\user1234\\Downloads\\app2.jar" ],
   "unknown_application_paths": [],
@@ -223,7 +223,7 @@ path entryas follows:
   "result": "WARN",
   "hostname":"DESKTOP-US1234", 
   "scan_ts":"2021-12-16T18:14:09.7897291-06:00", 
-  "scan_v":"0.2", 
+  "scan_v":"0.3", 
   "search_root":"C:\\",
   "vulnerable_application_paths": [],
   "unknown_application_paths": [ "C:\\Users\\user1234\\Downloads\\app.jar" ],
@@ -245,7 +245,7 @@ or unknown Java application or Java executable found on the system as follows:
   "result": "FAIL",
   "hostname":"DESKTOP-US1234", 
   "scan_ts":"2021-12-16T18:14:09.7897291-06:00", 
-  "scan_v":"0.2", 
+  "scan_v":"0.3", 
   "search_root":"C:\\",
   "vulnerable_application_paths": [ "C:\\Users\\user1234\\Downloads\\app.jar", "C:\\Users\\user1234\\Downloads\\app2.jar" ],
   "unknown_application_paths": [ "C:\\Users\\user1234\\Downloads\\app3.jar" ],
@@ -255,6 +255,11 @@ or unknown Java application or Java executable found on the system as follows:
 ```
 
 ## Changelog
+
+Version 0.3 released April 7, 2022 includes the following enhancements and resolutions:
+
+- Fixed scenario where the result would indicate the wrong result upon encountering an error
+- Broke output file list into different sections
 
 Version 0.2 released April 4, 2022 includes the following enhancements and resolutions:
 
