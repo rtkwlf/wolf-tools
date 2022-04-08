@@ -396,4 +396,9 @@ and log file for details.
 
   Write-Output ""
   Write-Output "For remediation steps, contact the vendor of each affected application."
-  exit 1
+  
+  if ($result -eq "PASS") {
+    exit 0
+  } else {
+    exit 1
+  }
