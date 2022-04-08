@@ -256,10 +256,10 @@ or unknown Java application or Java executable found on the system as follows:
 
 ## Changelog
 
-Version 0.3 released April 7, 2022 includes the following enhancements and resolutions:
+Version 0.3 released April 8, 2022 includes the following enhancements and resolutions:
 
-- Fixed scenario where the result would indicate the wrong result upon encountering an error
-- Broke output file list into different sections
+- Improved result reporting when an error was detected
+- Improved CLI output to separate findings into sections
 
 Version 0.2 released April 4, 2022 includes the following enhancements and resolutions:
 
