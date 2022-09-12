@@ -1,0 +1,10 @@
+Indicator,Type,Context
+137.184.181.252,IP Address,Used to exploit the Mitel device (CVE-2022-29499)
+138.197.218.11,IP Address,Data exfiltration via FileZilla
+138.68.19.94,IP Address,Data exfiltration via FileZilla
+138.68.59.16,IP Address,Used to download Chisel
+159.65.248.159,IP Address,Data exfiltration via FileZilla
+206.188.197.125,IP Address,Data exfiltration via FileZilla; HTTP POST requests to notify threat actors of encryption progress
+64.190.113.100,IP Address,Data exfiltration via FileZilla
+97ff99fd824a02106d20d167e2a2b647244712a558639524e7db1e6a2064a68d,SHA-256,Chisel
+07838ac8fd5a59bb741aae0cf3abf48296677be7ac0864c4f124c2e168c0af94,SHA-256,Webshell
