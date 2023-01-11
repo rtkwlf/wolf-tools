@@ -21,7 +21,7 @@ rule webshell_php_3b64command: Webshells PHP B64 {
 
 rule webshell_php_simple: Webshells PHP Simple {
   meta:
-    Description = "A simpler version of the webshells, observed by forensic examiners, accessed by Lorenz deploying Hive Ransomware"
+    Description = "A simpler version of the webshells, observed by forensic examiners at S-RM, accessed by Lorenz deploying Hive Ransomware"
     Category = "Malware"
     Author = "Arctic Wolf Labs"
     Date = "2023-01-10"
