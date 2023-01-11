@@ -29,7 +29,7 @@ rule webshell_php_simple: Webshells PHP Simple {
   strings:
     $if_id = "if($_POST["id"]"
     $eval_img = "eval($_POST["img"]"
-  condidtion:
+  condition:
     $if_id and $eval_img
 }
 
