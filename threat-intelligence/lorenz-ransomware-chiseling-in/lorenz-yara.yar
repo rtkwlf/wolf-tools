@@ -21,16 +21,18 @@ rule webshell_php_3b64command: Webshells PHP B64 {
 
 rule webshell_php_simple: Webshells PHP Simple {
   meta:
-    Description = "A simpler version of the webshells, observed by forensic examiners at S-RM, accessed by Lorenz deploying Hive Ransomware"
+    Description = "A simpler version of the webshells, observed by forensic examiners, accessed by Lorenz deploying Hive Ransomware"
     Category = "Malware"
     Author = "Arctic Wolf Labs"
     Date = "2023-01-10"
     Reference = "https://insights.s-rminform.com/lorenz-cyber-intelligence-briefing-special"
   strings:
-    $if_id = "if($_POST["id"]"
-    $eval_img = "eval($_POST["img"]"
+    $if_id = "if($_POST[\"id\"]"
+    $eval_img = "eval($_POST[\"img\"]); ?>"
   condition:
-    $if_id and $eval_img
+    $if_id in (0..20)
+    and $eval_img in (filesize-30..filesize)
+    and filesize < 1KB
 }
 
 rule hktl_chisel_artifacts: Chisel Hacktool Artifacts {
