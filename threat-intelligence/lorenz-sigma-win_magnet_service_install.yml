@@ -1,0 +1,27 @@
+title: Magnet RAM Capture Installation
+description: Detects Magnet RAM Capture service installation
+id: 19654ee5-1b53-4ccd-b186-efc4ed440d17
+author: Arctic Wolf Labs
+status: experimental
+date: 27/01/2023
+references:
+  - https://arcticwolf.com/resources/blog/lorenz-ransomware-getting-dumped
+tags:
+  - attack.t1569.002
+  - attack.t1003
+logsource:
+  product: windows
+  service: system
+detection:
+  magnet_service:
+    EventID: 7045
+    ServiceName:
+      - 'MagnetRAMCapture*'
+  condition: magnet_service
+fields:
+  - ServiceName
+  - ServiceFileName
+  - TargetFilename
+falsepositives:
+  - legitimate use of Magnet Ram Capture
+level: low
