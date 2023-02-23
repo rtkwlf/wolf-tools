@@ -1,0 +1,14 @@
+Indicator,Type,Context
+138.68.62.46 ,IP Address,Data exfiltration via FileZilla
+192.241.152.84,IP Address,Chisel Tunnel
+138.68.50.118,IP Address,Chisel Tunnel
+206.189.198.191,IP Address,Data Exfiltration via FileZilla
+23.28.148.190,IP Address,Used to connect to the victims SSL VPN
+45.61.136.141,IP Address,Used to connect to the victims SSL VPN
+97FF99FD824A02106D20D167E2A2B647244712A558639524E7DB1E6A2064A68D,SHA256,Chisel Tunnel
+72DC1BA6DDC9D572D70A194EBDF6027039734ECEE23A02751B0B3B3C4EA430DE,SHA256,Magnet RAM Capture
+5FFF657939E757922941162376ADB86B7A37DC329A1F9969C70F23E7D54B7B4C,SHA256,Signed Driver used by Magnet RAM Capture
+C:\Users\MRCv120.exe,Filepath,Magnet RAM Capture
+MagnetRAMCapture.sys,Filename,PE Original Name of Signed Driver used by Magnet RAM Capture
+debug.raw,Filename,Observed name for RAM capture output
+\tmp\.tmp\mem,Filepath,Chisel Tunnel
