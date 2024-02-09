@@ -122,8 +122,8 @@ fi
 #   2: path of current archive to inspect
 #######################################
 checkarchive() {
-  manifest=$( ( unzip -l "$2" 2>/dev/null || echo '_unknownjar_' ) | grep -E '(Jndi.*\.class|\.[ejw]ar|_unknownjar_)$')
-  
+  manifest=$( ( unzip -l "$2" 2>/dev/null || echo '_unknownjar_' ) | grep -E '(Jndi.*\.class|\.[nejw]ar|_unknownjar_)$')
+  # added n for NiFi nar files
   if printf '%s\n' "$manifest" | grep -q '_unknownjar_' ; then
     log 'WARN' "failed to read $1"
     return 1
@@ -139,8 +139,8 @@ checkarchive() {
     printf '%s\n' "$1"
   else
     # awk '{ind = index($0, $4); if (ind > 1) print substr($0, index($0, $4))}'
-    printf '%s\n' "$manifest" | grep -E '\.*[ejw]ar$' | while read -r line ; do
-      printf '%s\n' "$line" | grep -E '\.[ejw]ar$' | awk '{ind = index($0, $4); if (ind > 1) print substr($0, index($0, $4))}' | while read -r subarchive; do
+    printf '%s\n' "$manifest" | grep -E '\.*[nejw]ar$' | while read -r line ; do
+      printf '%s\n' "$line" | grep -E '\.[nejw]ar$' | awk '{ind = index($0, $4); if (ind > 1) print substr($0, index($0, $4))}' | while read -r subarchive; do
         log 'INFO' "found $subarchive in $1"
         extract_path=$(mktemp "tmp/tmp-XXXXXX")
         unzip -p "$2" "$subarchive" 2>/dev/null > "$extract_path" || log 'WARN' "failed to read $1"
@@ -166,7 +166,7 @@ printf '%s\n' "Finding all JAR files under $search_root and scanning each."
 printf '%s\n\n' "This can take several minutes. Ctrl-c to abort."
 log 'INFO' "scanning $search_root on $hostname"
 mkdir -p "tmp"
-output=$(find "$search_root" -mount -type f -regex '.*\.[ejw]ar$' 2>/dev/null | while read -r file; do log 'INFO' "checking $file"; checkarchive "$file" "$file"; done)
+output=$(find "$search_root" -mount -type f -regex '.*\.[nejw]ar$' 2>/dev/null | while read -r file; do log 'INFO' "checking $file"; checkarchive "$file" "$file"; done)
 rmdir "tmp" 2>/dev/null
 
 
