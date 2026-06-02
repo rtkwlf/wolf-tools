@@ -1,0 +1,6 @@
+Tactic,Technique,Sub-Technique,Procedure
+Resource Development,T1583.001 -- Acquire Infrastructure: Domains,--,"Cluster used attacker-controlled domains for C2, phishing, tracking, and lure delivery, including securehubcloud[.]com, attachedfile[.]com, and multiple supporting lure domains."
+Resource Development,T1583.006 -- Acquire Infrastructure: Web Services,--,Cluster served phishing content from multiple Cloudflare Workers parent subdomains listed in this package.
+Initial Access,T1566.002 -- Phishing: Spearphishing Link,--,"Victims were directed to phishing pages via secure-document themed lures, including HTML content matching the VirusTotal hunting query content:""Preparing your secure document...""."
+Credential Access,T1056.003 -- Input Capture: Web Portal Capture,--,Observed phishing domains impersonated mail and identity-provider login portals to capture credentials.
+Exfiltration,T1041 -- Exfiltration Over C2 Channel,--,MAX Messenger takeover activity used Telegram bot infrastructure to receive victim data.
