@@ -1,0 +1,131 @@
+IOC,Type,Description
+securehubcloud[.]com,Domain,C2 infrastructure apex observed serving the Kali365 backend.
+*.securehubcloud[.]com,Domain Wildcard,All subdomains under securehubcloud[.]com should be treated as malicious cluster C2 infrastructure.
+api[.]securehubcloud[.]com,Domain,Observed Kali365 backend C2 host.
+boss[.]securehubcloud[.]com,Domain,Observed Kali365 backend C2 host.
+panel[.]securehubcloud[.]com,Domain,Observed Kali365 backend C2 host.
+attachedfile[.]com,Domain,Primary phishing zone apex observed in this cluster.
+*.attachedfile[.]com,Domain Wildcard,All subdomains under attachedfile[.]com should be treated as malicious.
+8r[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+acc[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+account[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+api[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+auth[.]mail[.]ru[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+blog[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+cpanel[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+cpcalendars[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+cpcontacts[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+csp[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+disk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+g[.]sst[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+gdw55e[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+gui[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+live[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+login[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+mail[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+mail[.]ru[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+mta-sts[.]mail[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+ok[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+okta[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+outlook[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+reporting[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+ru[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+sk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+sso[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+ssl[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+sst[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+vpce[.]gdw55e[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+apm[.]vpce[.]gdw55e[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+webdisk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+webmail[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+www[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+www[.]auth[.]mail[.]ru[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+www[.]cloud[.]mail[.]ru[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+www[.]disk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+www[.]yadi[.]sk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+yadi[.]sk[.]attachedfile[.]com,Domain,Observed subdomain in the primary phishing zone.
+greatness-marketing[.]top,Domain,Observed MAX Messenger takeover domain.
+tk[.]mowell[.]tech,Domain,Tracking or pixel domain associated with the MAX Messenger takeover variant; observed pixel_id 906596682876295936.
+app[.]aermfq[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+hallttechav[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+trimedlting[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+beatsynash[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+hendersonscr[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+venturrascv[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+cousinpackaging[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+lineinvestments[.]info,Domain,Observed phishing or lure domain associated with the cluster.
+xzjkmh[.]icu,Domain,Observed phishing or lure domain associated with the cluster.
+creativelives[.]org,Domain,Observed phishing or lure domain associated with the cluster.
+livedrivecdn[.]co,Domain,Observed phishing or lure domain associated with the cluster.
+yxfrdv[.]icu,Domain,Observed phishing or lure domain associated with the cluster.
+data-secured[.]org,Domain,Observed phishing or lure domain associated with the cluster.
+remoska-cz[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+zuccainc[.]com,Domain,Observed phishing or lure domain associated with the cluster.
+documentsystems[.]net,Domain,Observed phishing or lure domain associated with the cluster.
+reviewpdf[.]site,Domain,Observed phishing or lure domain associated with the cluster.
+*.b875e3d068d947ba88099fe9[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-9wyiu5eo[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.34e2334558be53aec4cb8477[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-am446dap[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.3e0fbfa4329dc11b4d35bd55[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-b9aphttz[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.467908b25f25758e1432524e[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-czjan0m8[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.984bd87e928ce48d5b697b2a[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-ewgaj1gg[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.d4bb62e3dab0025afdea087d[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-hz7dcaxt[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.f7bec4af1a0c7d4f54346283[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-hzoubx9s[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-0ijbhkyh[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-ie3empb3[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-0zsklfju[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-j4fq26mf[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-1o2k0n4w[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-leman9ta[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-2xtasw30[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-luce2oan[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-44l3hnnw[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-mv4ac1tf[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-8vutm7zp[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-mx5yf43o[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-ajg7xu2w[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-nbqhrm66[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-fjpvslsk[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-nmedkh0e[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-h579jjuh[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-ntz8agp6[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-n5omq9dc[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-nxivcaow[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-o8e5spbn[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-o1tdiswh[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-om7bko50[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-qr74ozym[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-s2d34c1n[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-r3k6zulh[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.c-ueie7qir[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-rrw76os2[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.docusharehs[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-rwb0gq0k[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.iwlgxdclo40mx-gmx-com-s-account[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-sm7rw6ru[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.jack-0a3[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-t2ctp0rk[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.jeff-1fd[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-v9rb7twq[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.johncookmgme[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-v9tgi8h8[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.mandarahgs[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-vzf8qcly[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.manpreet-bimblaws-com-s-account[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-xs70efcq[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.misty-pine-60bb[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-zhge84gd[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-1ivy0a3t[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.pdfonlinedocsdocs-outlook-com-s-account[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-4bpdi3hp[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.rob-c2d[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-7jbbi8dx[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.royalbase3[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.p-8yejy42o[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.
+*.view-secure-documents[.]workers[.]dev,Domain Wildcard,Cloudflare Workers parent subdomain associated with the cluster; block all child hosts.

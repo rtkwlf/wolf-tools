@@ -1,0 +1,6 @@
+Field,Value
+Cluster Name,Kali365 phishing cluster
+Observation Window,2026-05-06 to 2026-05-27
+Primary Backend Fingerprint (BANNER_0_HASH-HOST),febb622cd9eeb5c8860dcef4cbfd4b74
+Certificate Fingerprint (CERT_FINGERPRINT-HOST),6894a51278ec89118276c2dd2dc36e6f9ea2790a
+Initial VirusTotal Hunting Query,"content:""Preparing your secure document..."""
