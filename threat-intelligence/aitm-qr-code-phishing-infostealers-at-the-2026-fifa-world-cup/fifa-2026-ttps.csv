@@ -1,0 +1,9 @@
+Tactic,Technique,Sub-Technique,Procedure
+Resource Development,T1583 -- Acquire Infrastructure,T1583.001 -- Domains,"Threat actor operated FIFA-themed domains for phishing, malware delivery, and command-and-control, including aaworldcuptickets[.]com, fud2026[.]com, and multiple fake FIFA careers domains."
+Initial Access,T1566 -- Phishing,T1566.002 -- Spearphishing Link,"Victims were directed through QR-code and lure-based phishing workflows, including fake FIFA careers themes and a weaponized handbook PDF."
+Execution,T1204 -- User Execution,T1204.002 -- Malicious File,"The campaign relied on victims opening a malicious PDF, installing the FIFA_WorldCup_Tickets.apk Android sample, or executing the WorldCup_Tickets_Viewer?gnp.exe payload."
+Credential Access,T1056 -- Input Capture,T1056.003 -- Web Portal Capture,"The AiTM workflow captured credentials and secondary factors through backend endpoints such as /api/login, /api/twofa, /api/sms, and /api/email."
+Defense Evasion,T1027 -- Obfuscated Files or Information,T1027.002 -- Software Packing,The Windows infostealer chain used an obfuscated batch script and a UPX-packed executable.
+Command and Control,T1571 -- Non-Standard Port,--,"The Android crypto-miner used mining infrastructure over TCP port 9000, including pool[.]fud2026[.]com:9000 and pool-proxy[.]fud2026[.]com:9000."
+Impact,T1496 -- Resource Hijacking,--,The Android payload hijacked victim resources for cryptocurrency mining.
+Exfiltration,T1041 -- Exfiltration Over C2 Channel,--,The Windows infostealer chain exfiltrated stolen victim data to Telegram and Discord.

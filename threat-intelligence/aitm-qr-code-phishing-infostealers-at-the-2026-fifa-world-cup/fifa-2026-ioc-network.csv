@@ -1,0 +1,18 @@
+IOC,Type,Description
+aaworldcuptickets[.]com,Domain,Distribution site for the fake FIFA tickets Android crypto-miner APK.
+Accessor[.]fud2026[.]com,Domain,Observed command-and-control host for the Android crypto-miner activity.
+fud2026[.]com,Domain,Observed apex domain for the Android crypto-miner command-and-control infrastructure.
+pool[.]fud2026[.]com:9000,Host:Port,Observed mining pool endpoint used by the Android crypto-miner payload.
+pool-proxy[.]fud2026[.]com:9000,Host:Port,Observed mining pool proxy endpoint used by the Android crypto-miner payload.
+Fifeq2026eqbackeq[.]onrender[.]com,Domain,"Observed AiTM fake-careers phishing backend; likely an obfuscated form of fifa2026back."
+ipwho.is,Domain,"Legitimate geolocation service observed abused for victim IP and geo profiling in the phishing flow; treat as context-dependent."
+fifa-careerpath[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-hiringhub[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifahiring[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifajobs[.]com,Domain,Observed fake FIFA careers phishing domain.
+jobs-fifa[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-careerhub[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-careerportal[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-hr[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-talenthub[.]com,Domain,Observed fake FIFA careers phishing domain.
+fifa-hiring[.]com,Domain,Observed fake FIFA careers phishing domain.

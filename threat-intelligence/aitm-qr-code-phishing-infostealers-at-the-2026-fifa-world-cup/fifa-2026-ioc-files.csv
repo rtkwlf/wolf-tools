@@ -1,0 +1,9 @@
+SHA-256,Filename,Description
+f753a9aa8ae2f7bb058feb524b6bbac9b25450216359181cd11410d8519dd600,FIFA_WorldCup_Tickets.apk,Android crypto-miner APK delivered through a fake FIFA tickets lure.
+54a7d368b2f7817a0d8ee1f210e305207ef824f15c5d4e652adcdc4deb457928,classes.dex,Primary DEX extracted from the FIFA_WorldCup_Tickets.apk sample.
+58e39152786a0f48dd005e4189769be9e0c2e2d0067c8128252d91ae85559117,stage1.dex,Decrypted first-stage DEX from the Android crypto-miner chain.
+27ab53a4649d6fbb7395bf7caa1790d49615efbb7286ad298a37868f139b21c8,classes.dex (stage2),Decrypted second-stage DEX from the Android crypto-miner chain.
+684fc3474df1bf51e964abe2442e35a5c0bc437d2b83c9aef8ce2d33903a2793,FIFAWorldCup26PhiladelphiaQ2Handbook.pdf,Weaponized QR-code phishing PDF masquerading as a Philadelphia employee handbook.
+234e4a0709a9359da8a0de1b274bf557874d3787602d4292d54563d5a439f53b,WorldCup_Tickets_Viewer?gnp.exe,Delivered Windows infostealer payload presented as a World Cup ticket viewer.
+98c884d4c9931cdfc85df26a57283c4b4801f7810f4b7ee2398002e473643801,datafacebook_obf.bat,Dropper script used in the Windows infostealer chain.
+0ec56970734aae3e5401bb9856455db753b574f5fcb0e4487f8ab92e15678024,photo_6266937823168499674_m.jpg,Decoy artifact dropped in the Windows infostealer chain.
