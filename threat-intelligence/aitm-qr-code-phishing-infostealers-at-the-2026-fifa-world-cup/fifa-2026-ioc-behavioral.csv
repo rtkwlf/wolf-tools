@@ -1,0 +1,6 @@
+Indicator,Type,Context
+*.fud2026[.]com:9000,Network Pattern,Android crypto-miner payload communicating with mining infrastructure over TCP port 9000.
+localStorage key user_created,Web Storage Artifact,AiTM phishing kit browser-side state artifact observed in the fake FIFA careers workflow.
+"/api/new-user; /api/booking; /api/login; /api/twofa; /api/sms; /api/email",HTTP Endpoint Set,AiTM phishing backend endpoint set used for victim registration credential capture and follow-on MFA collection.
+Telegram and Discord exfiltration,Exfiltration Behavior,Windows infostealer chain exfiltrated stolen victim data to Telegram and Discord services.
+".bat-spawned, UPX-packed executable",Execution Pattern,Windows infostealer dropper behavior involving batch-script-launched execution and a UPX-packed payload.
