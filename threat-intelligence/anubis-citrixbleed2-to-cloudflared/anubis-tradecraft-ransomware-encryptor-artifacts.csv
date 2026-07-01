@@ -1,0 +1,10 @@
+Artifact,Details
+Ransom note,RESTORE FILES.html
+Encryptor extension,.anubis
+Ransomware Encryptor Staging paths,"C:\Apps  
+C:\PerfLogs  
+C:\Users\REDACTED\Desktop  
+C:\Users\REDACTED\AppData  
+C:\Users\REDACTED\AppData\Local  
+C:\Users\Public  
+C:\Windows\Temp\netscan"
