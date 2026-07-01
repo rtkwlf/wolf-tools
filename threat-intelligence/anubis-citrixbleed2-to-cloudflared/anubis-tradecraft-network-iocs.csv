@@ -1,0 +1,48 @@
+Indicator,Type,Description
+45[.]227[.]254[.]25,IP Address,"CVE-2025-5777 exploitation source
+
+AS267784 - Flyservers S.A."
+45[.]76[.]79[.]92,IP Address,"Remotely Desktop C2
+
+AS20473 - The Constant Company"
+149[.]28[.]66[.]79,IP Address,"VPN authentication source
+
+AS20473 - The Constant Company"
+66[.]135[.]2[.]118,IP Address,"VPN authentication source
+
+AS20473 - The Constant Company"
+78[.]141[.]225[.]239,IP Address,"VPN authentication source
+
+AS20473 - The Constant Company"
+95[.]179[.]191[.]47,IP Address,"VPN authentication source
+
+AS20473 - The Constant Company"
+192[.]248[.]145[.]210,IP Address,"VPN authentication source
+
+AS20473 - The Constant Company"
+45[.]137[.]155[.]99,IP Address,"Threat Actor proxy infrastructure
+
+AS44477 - Stark Industries Solutions Ltd"
+198[.]41[.]192[.]7,IP Address,"Cloudflared tunnel communications
+
+AS13335 - Cloudflare"
+198[.]41[.]200[.]13,IP Address,"Cloudflared tunnel communications
+
+AS13335 - Cloudflare"
+45[.]13[.]212[.]7,IP Address,"MeshAgent C2
+
+AS215929 - DATACAMPUS, HK"
+144[.]202[.]14[.]75,IP Address,"MeshAgent C2
+
+AS20473 - The Constant Company"
+45[.]76[.]79[.]92,IP Address,"Remotely C2
+
+AS20473 - The Constant Company"
+83[.]143[.]112[.]178,IP Address,"Typosquatted ScreenConnect infrastructure
+
+AS199582 - Maddox William Albro"
+azuremicrosoft[.]us,Domain,Typosquatted ScreenConnect delivery
+relay[.]promotds[.]us,Domain,Typosquatted ScreenConnect relay
+https[:]/azuremicrosoft[.]us/Bin/ScreenConnect[.]ClientSetup[.]msi,URL,ScreenConnect typosquatted delivery URL
+AS399629 - Bl Networks,AS Number,Threat Actor VPS infrastructure
+s3[.]eu-amsterdam[.]megas4[.]com,Domain,"MEGA S4, S3-compatible cloud hosting infrastructure"

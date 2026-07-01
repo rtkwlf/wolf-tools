@@ -1,0 +1,11 @@
+Filename,Hash Type,Hash Value,Description
+4s6d0z.exe,SHA-256,91192cc647a6744b5426a7893401ead26a256baffd577acc983093c4f67654fa,Anubis encryptor example
+wa2cz8.exe,SHA-256,7efdca00d75724ec8773b35ae4b1154f840694d02f3a66058b5ae04157b367ef,Anubis encryptor example
+logs.exe,SHA-1,0e97399b326f0513edcba46bfb18a1fa1a5a701a,Netscan
+vdnBzdEu.exe,SHA-1,23873bf2670cf64c2440058130548d4e4da412dd,RemCom remote access utility
+Advanced_Port_Scanner_2.5.3869.exe,SHA-1,3477a173e2c1005a81d042802ab0f22cc12a4d55,Advanced Port Scanner
+advanced_ip_scanner.exe,SHA-1,b26cfde4ca74d5d5377889bba5b60b5fc72dda75,Advanced Port Scanner
+rclone.exe,SHA-1,92dac1fe45eb6eb69dd2acbcdabfae1facfbb532,Data staging utility
+mimikatz.exe,SHA-256,61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1,Mimikatz
+lsas.exe,SHA-256,7e75dd02846764da825fe9b79d36319dd71d78ee498471214e160780214e22f7,MeshAgent C2
+lsass.exe,SHA-256,37870b35bf7606391b43886ccd8445ce44a7b41bbdc3cb1f4896d2e629b6363a,MeshAgent C2

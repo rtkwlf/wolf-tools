@@ -1,0 +1,31 @@
+Tool,Indicator,Type,Notes
+ScreenConnect,ScreenConnect.ClientService.exe,Filename,Remote access service binary
+ScreenConnect,C:\Program Files (x86)\ScreenConnect Client (REDACTED_16DIGIT_HEX)\,File Path,ScreenConnect client installation path observed in reviewed artifacts
+ScreenConnect,relay.promotds[.]us,Domain,ScreenConnect relay domain
+Zoho Assist,sessionaudit.exe,Filename,Zoho Assist unattended agent component
+Zoho Assist,agent_ui.exe,Filename,Zoho Assist component
+Zoho Assist,zmagent.exe,Filename,Zoho Assist component
+Zoho Assist,toolsmanager.exe,Filename,Zoho Assist component
+Zoho Assist,zohoursservice.exe,Filename,Zoho Assist component
+Zoho Assist,ZN.MSI,Filename,Zoho Assist installer
+Zoho Assist,C:\Program Files (x86)\ZohoMeeting\Unattended\ZohoMeeting\,File path,Zoho Assist unattended agent path
+MeshAgent,mvtcs.exe,Filename,MeshAgent binary
+MeshAgent,sysagent.exe,Filename,MeshAgent binary
+MeshAgent,mvtcs.log,Filename,MeshAgent log file
+MeshAgent,"mvtcs.exe
+
+sysagent.exe",Filename,MeshAgent filenames
+MeshAgent,MeshUserTask,Scheduled Task Name,MeshAgent Scheduled task
+MeshAgent,mvtcs.msh,Filename,MeshAgent configuration file
+MeshAgent,mvtcs.db,Filename,MeshAgent database
+Remotely,Remotely_Desktop.dll,Filename,Remotely Desktop component
+Total Software Deployment,Total Software Deployment Audit Service,Service name,Service created during observed activity
+Total Software Deployment,tniwinagent.exe,Filename,Total Software Deployment agent
+Total Software Deployment,tsd.exe,Filename,Total Software Deployment executable
+Total Software Deployment,tsdservice.exe,Filename,Total Software Deployment service binary
+Total Software Deployment,tsd-setup.exe,Filename,Total Software Deployment installer
+UltraVNC,winvnc.exe,Filename,UltraVNC server component
+mRemoteNG,mRemoteNG.exe,Filename,Remote connection manager
+mRemoteNG,puttyng.exe,Filename,PuTTY component used by mRemoteNG
+cloudflared,C:\windows\cloudflared.exe,File Path,cloudflared binary location (Windows)
+cloudflared,/usr/local/etc/cloudflared/cloudflared,File Path,cloudflared binary location (Linux)

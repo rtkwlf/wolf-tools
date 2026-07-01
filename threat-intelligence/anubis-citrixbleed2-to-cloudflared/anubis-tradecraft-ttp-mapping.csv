@@ -1,0 +1,20 @@
+Tactic,Technique ID,Technique Name,Procedure (as observed)
+Initial Access,T1190,Exploit Public-Facing Application,Exploitation of CVE-2025-5777 in Citrix NetScaler ADC/Gateway
+Initial Access,T1078,Valid Accounts,Valid VPN credentials from VPS IPs; valid credentials
+Credential Access,T1539,Steal Web Session Cookie,"Pre-authentication memory read extracts session tokens from NetScaler, enabling MFA bypass"
+Execution,T1569.002,System Services: Service Execution,PsExec used for remote command execution
+Command and Control,T1219,Remote Access Tools,"Zoho Assist, ScreenConnect, MeshAgent, Remotely Desktop deployed for persistent access"
+Persistence,T1053.005,Scheduled Task/Job: Scheduled Task,MeshUserTask scheduled task; additional scheduled tasks observed
+Persistence,T1136,Create Account,Local account created on NAS device
+Credential Access,T1003,OS Credential Dumping,Mimikatz deployed for credential extraction
+Credential Access,T1003.003,OS Credential Dumping: NTDS,Active Directory.zip (NTDS.dit) exfiltrated for offline credential access
+Credential Access,T1555.003,Credentials from Password Stores: Credentials from Web Browsers,Chrome Passwords.csv and Microsoft Edge Passwords.csv exported through browser credential export
+Discovery,T1046,Network Service Discovery,"NetScan (renamed logs.exe), Advanced IP Scanner, Nmap for host/service enumeration"
+Discovery,T1083,File and Directory Discovery,"Directory browsing for ""login"" keyword files"
+Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,RDP used for lateral movement with harvested credentials
+Lateral Movement,T1021.002,Remote Services: SMB/Windows Admin Shares,SMB used for file staging and tool distribution
+Defense Evasion,T1562.001,Impair Defenses: Disable or Modify Tools,Microsoft Defender disabled; SophosUninstall.exe attempted; PCHunter64 deployed
+Collection,T1560,Archive Collected Data,s5cmd used for data collection and staging
+Exfiltration,T1567.002,Exfiltration Over Web Service: Exfiltration to Cloud Storage,S3 Browser and rclone to threat-actor-controlled cloud storage
+Impact,T1486,Data Encrypted for Impact,Anubis ransomware encryption
+Impact,T1485,Data Destruction,Anubis encryptor overwrites file contents to zero bytes
