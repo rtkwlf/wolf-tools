@@ -1,0 +1,14 @@
+Artifact,Details
+C:\PerfLogs\win.exe,Qilin ransomware payload staging location
+\\[host]\c$\Windows\Temp\win.exe,Remote ransomware deployment path
+%SystemRoot%\PSEXESVC.exe,PsExec service executable
+C:\Windows\Temp\NTDS\,NTDS.dit extraction output directory
+C:\audit\Active Directory\ntds.dit,Extracted Active Directory database
+C:\Windows\Temp\New scan\netscan.exe,SoftPerfect Network Scanner
+C:\Windows\Temp\rclone.exe,Rclone exfiltration tool
+C:\ProgramData\AnyDesk\AnyDesk.exe,AnyDesk remote access (standard path)
+C:\PerfLogs\AnyDesk.exe,AnyDesk (non-standard staging path)
+C:\Windows\Temp\AnyDesk.exe,AnyDesk (non-standard staging path)
+ngrok.exe / ngrok.yml,Ngrok tunneling utility and configuration
+Registry Run key: *[a-z]{6} pattern,Persistence via asterisk + six random lowercase chars
+Scheduled task: \MeshUserTask,MeshAgent persistence mechanism

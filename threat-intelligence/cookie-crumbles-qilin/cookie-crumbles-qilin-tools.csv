@@ -1,0 +1,11 @@
+Tool,Description
+PsExec (PSEXESVC.exe),Sysinternals remote execution utility used for lateral movement and remote command execution across investigated intrusions.
+SoftPerfect Network Scanner (netscan.exe),Network discovery tool used to enumerate accessible systems on victim networks.
+NetExec (nxc.exe),Network enumeration and credential validation tool (successor to CrackMapExec).
+AnyDesk,Commercial remote desktop application deployed at multiple file paths for persistent access.
+Ngrok,Tunneling utility that exposes local services through public relay endpoints.
+LogMeIn,Commercial remote access solution deployed for persistent connectivity.
+Rclone,Command-line cloud storage management tool used for data exfiltration.
+ProtonDrive,Encrypted cloud storage client associated with data exfiltration workflow.
+FileZilla,Open-source FTP client used for data transfer.
+ntdsutil.exe,Built-in Windows utility abused for Active Directory database extraction via IFM method.

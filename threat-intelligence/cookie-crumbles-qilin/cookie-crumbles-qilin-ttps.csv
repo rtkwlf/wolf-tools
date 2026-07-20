@@ -1,0 +1,22 @@
+Tactic,Technique ID,Technique Name,Sub-Technique,Procedure (as observed)
+Initial Access,T1190,Exploit Public-Facing Application,,Exploitation of CVE-2026-0257 on Palo Alto Networks firewall appliances to bypass SSL VPN authentication.
+"Initial Access, Persistence",T1133,External Remote Services,,Post-exploitation access via SSL VPN sessions from attacker-controlled infrastructure.
+"Initial Access, Persistence, Privilege Escalation, Stealth",T1078,Valid Accounts,,Compromised administrative credentials used for lateral movement and sustained access across investigated intrusions.
+Execution,T1059.001,Command and Scripting Interpreter: PowerShell,PowerShell,Enterprise-wide event log clearing via PowerShell using Get-WinEvent and EventLogSession.ClearLog.
+Execution,T1569.002,System Services: Service Execution,Service Execution,PsExec service (PSEXESVC.exe) installed and used for remote command execution; LSASS dumping via service creation with randomized name.
+"Persistence, Privilege Escalation",T1547.001,Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder,Registry Run Keys / Startup Folder,Registry Run key values using asterisk + six random lowercase alpha characters pattern for ransomware persistence.
+"Execution, Persistence, Privilege Escalation",T1053.005,Scheduled Task/Job: Scheduled Task,Scheduled Task,Scheduled task \MeshUserTask created for MeshAgent remote access persistence.
+Credential Access,T1003.001,OS Credential Dumping: LSASS Memory,LSASS Memory,rundll32.exe comsvcs.dll MiniDump of LSASS process to .odt file via randomized service.
+Credential Access,T1003.003,OS Credential Dumping: NTDS,NTDS,ntdsutil.exe IFM method to extract full Active Directory database.
+Discovery,T1018,Remote System Discovery,,SoftPerfect Network Scanner (netscan.exe) and NetExec (nxc.exe) used for network enumeration.
+Discovery,T1082,System Information Discovery,,Interactive file system exploration via Shellbag-recorded navigation of local and remote systems.
+Lateral Movement,T1021.002,Remote Services: SMB/Windows Admin Shares,SMB/Windows Admin Shares,Ransomware and tools transferred to remote systems via C$ administrative shares.
+Lateral Movement,T1021.001,Remote Services: Remote Desktop Protocol,Remote Desktop Protocol,RDP used as secondary lateral movement mechanism across multiple intrusions.
+Lateral Movement,T1570,Lateral Tool Transfer,,Tools and ransomware payload transferred between systems via administrative shares.
+Defense Impairment,T1685,Disable or Modify Tools,,Microsoft Defender Real-Time Protection disabled prior to ransomware deployment.
+Defense Impairment,T1685.005,Disable or Modify Tools: Clear Windows Event Logs,Clear Windows Event Logs,"PowerShell routine clearing all populated Windows event logs; targeted clearing of Security, System, and PowerShell logs."
+Command and Control,T1219,Remote Access Tools,,"AnyDesk, LogMeIn, MeshAgent, and Ngrok deployed for persistent remote access."
+Command and Control,T1572,Protocol Tunneling,,Ngrok used to create outbound tunnels through public relay endpoints for remote access.
+Exfiltration,T1567.002,Exfiltration Over Web Service: Exfiltration to Cloud Storage,Exfiltration to Cloud Storage,"Rclone, ProtonDrive, and FileZilla used to exfiltrate data to MEGA cloud storage."
+Impact,T1486,Data Encrypted for Impact,,Qilin ransomware (win.exe) deployed for enterprise-wide file encryption with unique per-campaign extension.
+Impact,T1490,Inhibit System Recovery,,Veeam backup infrastructure specifically targeted prior to ransomware deployment.
