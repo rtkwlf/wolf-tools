@@ -1,0 +1,23 @@
+Indicator,Description
+144.48.6[.]3,Attacker infrastructure
+108.61.229[.]217,VPN session source (machine=kali)
+82.29.54[.]140,CVE-2026-0257 exploitation source
+8.211.159[.]220,CVE-2026-0257 exploitation source
+138.197.17[.]143,CVE-2026-0257 exploitation source
+62.60.131[.]168,CVE-2026-0257 exploitation source
+165.232.153[.]54,CVE-2026-0257 exploitation source
+64.23.243[.]34,CVE-2026-0257 exploitation source
+23.227.203[.]123,CVE-2026-0257 exploitation source
+45.32.238[.]229,CVE-2026-0257 exploitation source + VPN access
+45.61.136[.]76,CVE-2026-0257 exploitation source
+108.61.75[.]232,CVE-2026-0257 exploitation source + VPN access
+147.182.234[.]126,CVE-2026-0257 exploitation source
+199.247.22[.]193,CVE-2026-0257 exploitation source + VPN access
+70.34.205[.]43,CVE-2026-0257 exploitation source + VPN access
+2.188.33[.]52,VPN session source
+185.206.24[.]203,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
+185.206.25[.]27,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
+94.24.37[.]226,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
+94.24.37[.]230,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
+162.208.16[.]175,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
+162.208.16[.]177,MEGA cloud storage infrastructure (legitimate service used for exfiltration)
