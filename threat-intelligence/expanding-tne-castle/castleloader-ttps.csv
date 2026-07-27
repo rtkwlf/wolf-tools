@@ -1,0 +1,14 @@
+Technique,ID,Context
+Phishing / ClickFix Lure,T1566,"Initial access via spoofed Edge update, job platform impersonation"
+Command and Scripting Interpreter: PowerShell,T1059.001,Obfuscated PS1 stager across all campaigns
+Command and Scripting Interpreter: Python,T1059.006,"Python injector, PythonRAT"
+Process Injection,T1055,"Shellcode stub injection, CLR injector"
+Ingress Tool Transfer,T1105,CastleLoader get_tasks payload download
+Encrypted Channel,T1573,"ChaCha20 (CastleLoader C2), AES-GCM (NeedleStealer), RC4 (per-payload)"
+Remote Access Software,T1219,"NetSupport RAT, Lobshot"
+Browser Extension,T1176,NeedleStealer Golang browser spoofer
+Masquerading,T1036,"Fake Microsoft Edge update, fake ad blocker extension"
+Data from Local System,T1005,CastleStealer credential harvesting
+Steal Cryptocurrency Wallet,T1639,NeedleStealer wallet seed harvest
+Subvert Trust Controls: Code Signing,T1553.002,Digitally signed malicious installers
+Establish Accounts / Infrastructure,T1583,"Staged domains (monblare, kaneta)"
