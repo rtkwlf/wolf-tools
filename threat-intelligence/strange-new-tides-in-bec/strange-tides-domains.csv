@@ -1,0 +1,45 @@
+domain,role,notes
+idp.keyreniao[.]com,Redirector,"Redirects to https://mslogin[.]milocaroline[.]com
+
+Hosted on Hostinger, 187.124.129[.]44"
+idp.korminel[.]com,Redirector,"Redirects to https://msonline[.]logicalineonline[.]com
+
+Hosted on Hostinger, 194.5.157[.]204"
+idp.kualabemo[.]com,Redirector,"Redirects to https://msauth[.]monlinelogicaline[.]com
+
+Hosted on Hostinger, 145.223.100[.]123"
+int.camberwolis[.]com,Redirector,Redirects to https[:]//msauth.monlinelogicaline[.]com
+mslogin.milocaroline[.]com,AiTM authentication proxy,"Hosted on Hostinger, 153.92.1[.]166"
+msauth.monlinelogicaline[.]com,AiTM authentication proxy,"Hosted on Hostinger, 31.97.76[.]103"
+msonline.logicalineonline[.]com,AiTM authentication proxy,"Hosted on Hostinger, 177.7.56[.]248"
+office.ofreace[.]com,AiTM authentication proxy,"Defunct as of 2026-07-30. Hosted on Hostinger, 72.62.0[.]181"
+office.ofercarc[.]com,AiTM authentication proxy,"Defunct as of 2026-07-30. Hosted on Hostinger, 72.62.0[.]181"
+office.ofrecie[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+office.ofreice[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+office.ofrecre[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+office.ocrifere[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+office.ocifire[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+login.oficarine[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+login-microsoftonline.offirmtm[.]com,AiTM authentication proxy,Defunct as of 2026-07-30.
+wisemediapa-ttern[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+sky2025forge[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+skyprimeworks[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+1systemsevolve[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+xsyst-emsquantum[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+tec-hnoplatform2025[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+evolveelevateunion[.]digital,AiTM authentication proxy,Defunct as of 2026-07-30.
+offirmtm[.]com,Root domain,
+keyreniao[.]com,Root domain,
+korminel[.]com,Root domain,
+kualabemo[.]com,Root domain,
+milocaroline[.]com,Root domain,
+monlinelogicaline[.]com,Root domain,
+logicalineonline[.]com,Root domain,
+ofrecie[.]com,Root domain,
+ofreace[.]com,Root domain,
+ofreice[.]com,Root domain,
+ofrecre[.]com,Root domain,
+ofercarc[.]com,Root domain,
+ocrifere[.]com,Root domain,
+ocifire[.]com,Root domain,
+oficarine[.]com,Root domain,

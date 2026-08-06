@@ -1,0 +1,6 @@
+timestamp,errorcode,failurereason,additionaldetails,appdisplayname,resourcedisplayname,ipaddress,asn,operatingsystem,browser
+2026-07-22T01:57:57,0,Other.,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,97.85.102[.]3,Charter Communications Llc,Windows10,Firefox 131.0
+2026-07-22T05:11:21,0,Other.,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,2607:fb91:4:4df6:431d:cce:acca:3939,T-Mobile,Windows,Python Requests 2.34
+2026-07-22T05:11:24,0,Other.,MFA requirement satisfied by claim in the token,Microsoft Outlook,Microsoft Graph,2600:4040:a33a:8e00:8121:ff13:8c19:736e,Verizon,Windows,Python Requests 2.34
+2026-07-22T05:11:27,0,Other.,MFA requirement satisfied by claim in the token,Microsoft Outlook,Microsoft Graph,2603:6013:7e00:be3a:bac2:4575:6826:9b79,Charter Communications Inc,Windows,Python Requests 2.34
+2026-07-22T05:11:27,0,Other.,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,2603:6013:7e00:be3a:bac2:4575:6826:9b79,Charter Communications Inc,Windows,Python Requests 2.34

@@ -1,0 +1,18 @@
+dns_query,resolved_values,asn,notes
+ogads-pa[.]clients6[.]google[.]com,googlehosted.l.googleusercontent.com → 142.250.139.132,AS15169 - Google Llc,Associated with Google Ads
+ep1[.]adtrafficquality[.]google,"142.250.137[.]155
+
+142.250.137[.]156
+
+142.250.137[.]157
+
+142.250.137[.]154",AS15169 - Google Llc,Associated with Google Ads
+ep2[.]adtrafficquality[.]google,192.178.192[.]132,AS15169 - Google Llc,Associated with Google Ads
+res[.]public.onecdn[.]static[.]microsoft,"res-ocdi-public.trafficmanager.net → 2.16.170.211, etc.",AS20940 - Akamai International B.V.,Microsoft CDN
+idp[.]keyreniao[.]com,187.124.129[.]44,AS47583 - Hostinger International Limited,Newly registered domain (2026-07-09T17:02:32Z)
+mslogin[.]milocaroline[.]com,153.92.1[.]166,AS47583 - Hostinger International Limited,Newly registered domain (2026-07-07T22:11:17Z)
+api[.]country[.]is,"104.26.0[.]226
+
+104.26.1[.]226
+
+172.67.75[.]199",AS13335 - Cloudflare,"Free, unauthenticated geolocation API"

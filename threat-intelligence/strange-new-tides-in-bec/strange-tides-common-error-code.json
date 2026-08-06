@@ -1,0 +1,7 @@
+{
+    "status": {
+        "errorCode": 90014,
+        "failureReason": "The required field 'nonce' is missing from the credential.",
+        "additionalDetails": "Developer error - the app is attempting to sign in without the necessary or correct authentication parameters."
+    }
+}
