@@ -1,0 +1,22 @@
+---
+# yaml-language-server: $schema=https://www.schemastore.org/catalog-info.json
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: <set project name> # YOU MUST SET THIS
+  title: <Set Project> # YOU MUST SET THIS
+  description: "<SET DESC>" # YOU MUST SET THIS
+  annotations:
+    backstage.io/code-coverage: enabled/disabled
+    backstage.io/source-location: url:https://github.com/rtkwlf/wolf-tools
+    backstage.io/techdocs-ref: "dir:."
+    github.com/project-slug: "rtkwlf/wolf-tools"
+    jira/project-key: "<JIRA KEY>" # YOU MUST SET THIS
+    jira/label: "project" # YOU MUST SET THIS
+  tags:
+    - github
+spec:
+  lifecycle: "" # YOU MUST SET THIS
+  type: "" # YOU MUST SET THIS
+  owner: "" # YOU MUST SET THIS
+  system: "" # YOU MUST SET THIS
