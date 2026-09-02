@@ -4,30 +4,25 @@
 - Kyle Siddall
 
 ## KEY FINDINGS
-- Between August 26 and August 28, 2026, Arctic Wolf observed a large-scale credential attack campaign targeting internet-facing Fortinet VPN services.
-- The campaign targeted hundreds of organizations and generated tens of millions of authentication failures across multiple US customer environments. One reviewed environment recorded more than 58 million failed authentication attempts.
-- The threat actor attempted authentication using organization-specific usernames, corporate email addresses, affiliate accounts, and common administrative identities. This targeting indicates the actor had access to previously collected or enumerated identity information.
-- Arctic Wolf identified at least one successful Fortinet VPN authentication originating from campaign infrastructure. The authentication was followed by confirmed malicious activity within the affected customer environment.
+- Between August 26 and August 28, 2026, Arctic Wolf observed a large-scale credential attack campaign against internet-facing Fortinet VPN services that targeted hundreds of organizations and generated tens of millions of authentication failures. One reviewed environment recorded more than 58 million failed attempts.
+- The actor used organization-specific usernames, corporate email addresses, affiliate accounts, and common administrative identities, indicating access to previously collected or enumerated identity information.
+- Arctic Wolf identified a successful Fortinet VPN authentication from campaign infrastructure that was followed by confirmed malicious activity in the affected environment.
 
 ## BACKGROUND
-The campaign primarily used infrastructure associated with Omegatech LTD (AS202412) and M247 Europe SRL.
-
-Arctic Wolf observed two sustained waves of authentication activity across multiple US customer environments between August 26 and August 28, 2026.
-
-The campaign is notable for both its scale and its repeated use of organization-specific identities. This pattern suggests the threat actor used pre-collected or enumerated identity data rather than relying exclusively on generic usernames.
+The campaign used infrastructure associated with Omegatech LTD (AS202412) and M247 Europe SRL. Its scale and organization-specific targeting distinguish it from generic username spraying.
 
 ## TECHNICAL DETAILS AND ATTACK FLOW
-1. The threat actor conducted high-volume authentication attempts in two sustained waves between August 26 and August 28, 2026. The activity generated tens of millions of failed authentication attempts.
-2. Attempted usernames included common administrative accounts, employee names, corporate email addresses, and affiliate identities associated with the targeted organizations. This pattern indicates targeted identity selection rather than exclusively generic username spraying.
-3. Some authentication attempts may have involved valid credentials. Arctic Wolf confirmed one successful Fortinet VPN authentication from `158[.]94[.]211[.]14` that was followed by malicious activity within a customer environment.
-4. Defenders should treat successful Fortinet VPN authentications associated with identified campaign infrastructure as potential intrusion footholds. These events warrant immediate investigation, session containment, endpoint review, and credential remediation.
+1. The actor generated high-volume authentication activity in two sustained waves across multiple US customer environments from August 26 through August 28, 2026.
+2. The attempted usernames included employee names, corporate email addresses, affiliate identities, and common administrative accounts associated with the targeted organizations.
+3. Arctic Wolf confirmed a successful Fortinet VPN authentication from `158[.]94[.]211[.]14` followed by malicious activity in the affected environment.
+4. Successful VPN authentications from the identified infrastructure should be treated as potential intrusion footholds and investigated immediately.
 
 ## DEFENSIVE CONSIDERATIONS
-- Prioritize investigation of successful Fortinet VPN authentications originating from IP addresses listed below, Omegatech LTD (AS202412), and M247 Europe SRL.
-- Review authentication logs from 2026-08-26 through 2026-08-28 for both high-volume failures and low-volume successes associated with the same infrastructure.
-- Hunt for successful logins involving organization-specific usernames that were preceded by repeated failed attempts from the same source infrastructure.
+- Investigate successful Fortinet VPN authentications from the listed IP addresses and ASNs; contain active sessions, review affected endpoints, and remediate compromised credentials.
+- Review authentication logs from 2026-08-26 through 2026-08-28 for high-volume failures and lower-volume successes from the same infrastructure.
+- Hunt for successful logins using organization-specific usernames that were preceded by repeated failures from the same source infrastructure.
 - Correlate suspicious Fortinet VPN authentications with follow-on activity such as new internal connections, privilege use, account changes, remote administration, or access to sensitive systems.
-- Where operationally appropriate, consider blocking or rate-limiting identified malicious source infrastructure and reviewing exposure of internet-facing Fortinet VPN services.
+- Where operationally appropriate, block or rate-limit the identified source infrastructure and review the exposure of internet-facing Fortinet VPN services.
 - Validate MFA enforcement, authentication policy hardening, and monitoring for anomalous VPN source geography, ASN, and identity usage patterns.
 
 ## INDICATORS OF COMPROMISE
