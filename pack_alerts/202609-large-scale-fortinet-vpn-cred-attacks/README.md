@@ -11,10 +11,11 @@
 ## BACKGROUND
 The campaign used infrastructure associated with Omegatech LTD (AS202412) and M247 Europe SRL (AS9009). Its scale and organization-specific targeting distinguish it from generic username spraying.
 
-1. The actor generated high-volume authentication activity in two sustained waves across multiple US customer environments from August 26 through August 28, 2026.
-2. The attempted usernames included employee names, corporate email addresses, affiliate identities, and common administrative accounts associated with the targeted organizations. This targeted identity selection, rather than generic username spraying, indicates access to previously collected or enumerated identity information.
-3. Arctic Wolf confirmed a successful Fortinet VPN authentication from `158[.]94[.]211[.]14` followed by malicious activity in the affected environment.
-4. Successful VPN authentications from the identified infrastructure should be treated as potential intrusion footholds and investigated immediately.
+## TECHNICAL DETAILS
+- The actor generated high-volume authentication activity in two sustained waves across multiple US customer environments from August 26 through August 28, 2026.
+- The attempted usernames included employee names, corporate email addresses, affiliate identities, and common administrative accounts associated with the targeted organizations. This targeted identity selection, rather than generic username spraying, indicates access to previously collected or enumerated identity information.
+- Arctic Wolf confirmed a successful Fortinet VPN authentication from `158[.]94[.]211[.]14` followed by malicious activity in the affected environment.
+- Successful VPN authentications from the identified infrastructure should be treated as potential intrusion footholds and investigated immediately.
 
 ## DEFENSIVE CONSIDERATIONS
 - Investigate successful Fortinet VPN authentications from the listed IP addresses and ASNs; contain active sessions, review affected endpoints, and remediate compromised credentials.
