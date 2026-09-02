@@ -9,7 +9,7 @@
 - Arctic Wolf identified a successful Fortinet VPN authentication from campaign infrastructure that was followed by confirmed malicious activity in the affected environment.
 
 ## BACKGROUND
-The campaign used infrastructure associated with Omegatech LTD (AS202412) and M247 Europe SRL. Its scale and organization-specific targeting distinguish it from generic username spraying.
+The campaign used infrastructure associated with Omegatech LTD (AS202412) and M247 Europe SRL (AS9009). Its scale and organization-specific targeting distinguish it from generic username spraying.
 
 ## TECHNICAL DETAILS AND ATTACK FLOW
 1. The actor generated high-volume authentication activity in two sustained waves across multiple US customer environments from August 26 through August 28, 2026.
