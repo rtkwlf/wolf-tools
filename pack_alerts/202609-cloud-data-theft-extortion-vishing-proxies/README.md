@@ -89,7 +89,9 @@ The indicators below represent a subset of infrastructure and behavioral artifac
 # LURE DOMAINS
 assignpasskey[.]com
 mfaregister[.]com
+nowsso[.]com
 oskeysetup[.]com
+oursso[.]com
 passkey-mfa[.]com
 passkeydeploy[.]com
 registermymfa[.]com
