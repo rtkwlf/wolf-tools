@@ -4,6 +4,7 @@ Open source tools and scripts by Arctic Wolf:
 
 ## Pack Alerts
 
+- [202609-cloud-data-theft-extortion-vishing-proxies](pack_alerts/202609-cloud-data-theft-extortion-vishing-proxies/README.md)
 - [202609-large-scale-fortinet-vpn-cred-attacks](pack_alerts/202609-large-scale-fortinet-vpn-cred-attacks/README.md)
 - [202608-github-redirects-boryptgrab-c2](pack_alerts/202608-github-redirects-boryptgrab-c2/README.md)
 
