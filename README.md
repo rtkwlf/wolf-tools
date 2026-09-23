@@ -4,6 +4,7 @@ Open source tools and scripts by Arctic Wolf:
 
 ## Pack Alerts
 
+- [202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport](pack_alerts/202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport/README.md)
 - [202609-ukrainian-clickfix-psychedelic-stealer](pack_alerts/202609-ukrainian-clickfix-psychedelic-stealer/README.md)
 - [202609-lua-phishing-in-memory-infostealer-eu](pack_alerts/202609-lua-phishing-in-memory-infostealer-eu/README.md)
 - [202609-papercut-cve-exploitation](pack_alerts/202609-papercut-cve-exploitation/README.md)
