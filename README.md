@@ -2,10 +2,21 @@
 
 Open source tools and scripts by Arctic Wolf:
 
+## Pack Alerts
+
+- [202609-citrix-netscaler-active-exploitation-cve-2026-88771](pack_alerts/202609-citrix-netscaler-active-exploitation-cve-2026-88771/README.md)
+- [202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport](pack_alerts/202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport/README.md)
+- [202609-ukrainian-clickfix-psychedelic-stealer](pack_alerts/202609-ukrainian-clickfix-psychedelic-stealer/README.md)
+- [202609-lua-phishing-in-memory-infostealer-eu](pack_alerts/202609-lua-phishing-in-memory-infostealer-eu/README.md)
+- [202609-papercut-cve-exploitation](pack_alerts/202609-papercut-cve-exploitation/README.md)
+- [202609-cloud-data-theft-extortion-vishing-proxies](pack_alerts/202609-cloud-data-theft-extortion-vishing-proxies/README.md)
+- [202609-large-scale-fortinet-vpn-cred-attacks](pack_alerts/202609-large-scale-fortinet-vpn-cred-attacks/README.md)
+- [202608-github-redirects-boryptgrab-c2](pack_alerts/202608-github-redirects-boryptgrab-c2/README.md)
+
 ## Vulnerability Scanners
 
 - [Arctic Wolf Log4Shell Deep Scan](log4shell/README.md): detects Java application packages
-subject to [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) and 
+subject to [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) and
 [CVE-2021-45046](https://nvd.nist.gov/vuln/detail/CVE-2021-45046)
 - [Arctic Wolf Spring4Shell Deep Scan](spring4shell/README.md): detects Java application packages
 subject to [CVE-2022-22965](https://tanzu.vmware.com/security/cve-2022-22965)

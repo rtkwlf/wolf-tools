@@ -1,0 +1,12 @@
+timestamp,errorcode,failurereason,additionaldetails,appdisplayname,resourcedisplayname,ipaddress,asn,operatingsystem,browser
+2026-07-17T15:53:26,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,24.252.167[.]69,Cox Communications Inc.,Windows10,Firefox 151.0
+2026-07-17T15:53:30,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,76.216.220[.]215,At&T Enterprises  Llc,Windows10,Firefox 131.0
+2026-07-17T15:53:32,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Microsoft Graph,70.108.9[.]117,Verizon,Windows10,Firefox 131.0
+2026-07-17T15:53:42,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,172.58.132[.]24,T-Mobile,Windows10,Firefox 131.0
+2026-07-17T23:53:45,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,136.50.134[.]1,Google,Windows10,Firefox 131.0
+2026-07-18T07:53:50,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,108.147.103[.]62,At&T Enterprises  Llc,Windows10,Firefox 131.0
+2026-07-18T15:53:55,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,67.250.183[.]230,Charter Communications Inc,Windows10,Firefox 131.0
+2026-07-18T23:54:04,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,68.42.211[.]57,Comcast,Windows10,Firefox 131.0
+2026-07-19T07:54:12,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,97.165.174[.]158,Verizon,Windows10,Firefox 131.0
+2026-07-19T15:54:17,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,24.224.34[.]191,Cable One  Inc.,Windows10,Firefox 131.0
+2026-07-19T23:54:27,0,Other,MFA requirement satisfied by claim in the token,Microsoft Outlook,Office 365 Exchange Online,172.59.214[.]230,T-Mobile,Windows10,Firefox 131.0

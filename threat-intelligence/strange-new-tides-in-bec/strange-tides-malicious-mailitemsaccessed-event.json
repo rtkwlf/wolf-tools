@@ -1,0 +1,40 @@
+{
+    "AppAccessContext": {
+        "APIId": "c999ed3e-27ae-4cb3-b3a2-46b056af63d3",
+        "ClientAppId": "5d661950-3475-41cd-a2c3-d671a3162bc1",
+        "IssuedAtTime": "2026-07-17T17:15:53"
+    },
+    "CreationTime": "2026-07-17T17:21:04",
+    "Operation": "MailItemsAccessed",
+    "RecordType": 50,
+    "ResultStatus": "Succeeded",
+    "UserType": 0,
+    "Version": 1,
+    "Workload": "Exchange",
+    "ActorInfoString": "Client=REST;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0[AppId=5d661950-3475-41cd-a2c3-d671a3162bc1];",
+    "AppId": "5d661950-3475-41cd-a2c3-d671a3162bc1",
+    "ClientAppId": "5d661950-3475-41cd-a2c3-d671a3162bc1",
+    "ClientInfoString": "Client=REST;;",
+    "ExternalAccess": false,
+    "InternalLogonType": 0,
+    "LogonType": 0,
+    "OperationProperties": [
+        {
+            "Name": "MailAccessType",
+            "Value": "Bind"
+        }
+    ],
+    "Folders": [
+        {
+            "FolderItems": [
+                {
+                    "CreationTime": "<REDACTED>",
+                    "Subject": "<REDACTED>Payroll<REDACTED>"
+                }
+            ],
+            "Path": "\\Sent Items"
+        }
+    ],
+    "OperationCount": 1,
+    "endpoint": "management-exchange"
+}

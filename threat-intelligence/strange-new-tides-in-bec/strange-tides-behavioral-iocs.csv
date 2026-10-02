@@ -1,0 +1,9 @@
+indicator,description
+Error code 90014 + OfficeHome Client ID,Initial AiTM relay producing nonce-related developer error
+Firefox user agent + Microsoft Outlook Client App ID,Post-compromise token refresh activity
+8-hour sign-in periodicity,Automated token refresh cadence
+Microsoft Outlook Client App ID + non-Edge browser,Anomalous first-party client behavior (majority of legitimate Outlook activity uses Edge)
+/st_58200519/class_identifier.php,Browser fingerprinting endpoint on AiTM proxy
+api[.]country[.]is resolution,Geolocation check during fingerprinting stage
+Voicemail lure subject format,[Org] :ATTN: Review messages. Ref id: [random]
+Google Meet linkredirect chain,"Multi-hop redirect via meet.google.com/linkredirect to Google Ads, an AWS S3 bucket URL, ultimately landing on a Microsoft 365 phishing domain"

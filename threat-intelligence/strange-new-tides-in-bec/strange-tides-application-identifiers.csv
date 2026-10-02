@@ -1,0 +1,4 @@
+identifier,value,context
+Client App ID,5d661950-3475-41cd-a2c3-d671a3162bc1,"Microsoft Outlook (legitimate, but anomalous when paired with below)"
+API ID,c999ed3e-27ae-4cb3-b3a2-46b056af63d3,Not documented publicly; tied to MailItemsAccessed events in this campaign
+OfficeHome Client ID,4765445b-32c6-49b0-83e6-1d93765276ca,Used in the AiTM proxy's OAuth authorization request

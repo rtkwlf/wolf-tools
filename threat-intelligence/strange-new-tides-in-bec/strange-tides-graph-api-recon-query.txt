@@ -1,0 +1,75 @@
+# Edited for legibility
+
+https[:]//graph[.]microsoft[.]com/v1.0/users
+?$search=
+"displayName:payroll" OR
+"givenName:payroll" OR
+"surname:payroll" OR
+"jobTitle:payroll" OR
+"mail:payroll" OR
+"userPrincipalName:payroll" OR
+
+"displayName:pay" OR
+"givenName:pay" OR
+"surname:pay" OR
+"jobTitle:pay" OR
+"mail:pay" OR
+"userPrincipalName:pay" OR
+
+"displayName:hr" OR
+"givenName:hr" OR
+"surname:hr" OR
+"jobTitle:hr" OR
+"mail:hr" OR
+"userPrincipalName:hr" OR
+
+"displayName:human" OR
+"givenName:human" OR
+"surname:human" OR
+"jobTitle:human" OR
+"mail:human" OR
+"userPrincipalName:human" OR
+
+"displayName:resources" OR
+"givenName:resources" OR
+"surname:resources" OR
+"jobTitle:resources" OR
+"mail:resources" OR
+"userPrincipalName:resources" OR
+
+"displayName:support" OR
+"givenName:support" OR
+"surname:support" OR
+"jobTitle:support" OR
+"mail:support" OR
+"userPrincipalName:support" OR
+
+"displayName:info" OR
+"givenName:info" OR
+"surname:info" OR
+"jobTitle:info" OR
+"mail:info" OR
+"userPrincipalName:info" OR
+
+"displayName:finance" OR
+"givenName:finance" OR
+"surname:finance" OR
+"jobTitle:finance" OR
+"mail:finance" OR
+"userPrincipalName:finance" OR
+
+"displayName:account" OR
+"givenName:account" OR
+"surname:account" OR
+"jobTitle:account" OR
+"mail:account" OR
+"userPrincipalName:account" OR
+
+"displayName:admin" OR
+"givenName:admin" OR
+"surname:admin" OR
+"jobTitle:admin" OR
+"mail:admin" OR
+"userPrincipalName:admin"
+
+&$top=999
