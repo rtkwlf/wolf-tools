@@ -4,6 +4,7 @@ Open source tools and scripts by Arctic Wolf:
 
 ## Pack Alerts
 
+- [202610-dropping-elephant-targets-apac-defense-government-naval](pack_alerts/202610-dropping-elephant-targets-apac-defense-government-naval/README.md)
 - [202609-citrix-netscaler-active-exploitation-cve-2026-88771](pack_alerts/202609-citrix-netscaler-active-exploitation-cve-2026-88771/README.md)
 - [202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport](pack_alerts/202609-trojanized-bambu-studio-deploys-vaultaxis-netsupport/README.md)
 - [202609-ukrainian-clickfix-psychedelic-stealer](pack_alerts/202609-ukrainian-clickfix-psychedelic-stealer/README.md)
