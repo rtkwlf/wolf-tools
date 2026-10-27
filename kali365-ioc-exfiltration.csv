@@ -1,0 +1,6 @@
+IOC,Type,Description
+@NovosibyrskyMoneyBot,Telegram Bot Username,Telegram bot username used by the MAX Messenger takeover variant.
+sova_novosibirsk_bot,Telegram Bot First Name,Telegram bot first_name observed for the MAX Messenger takeover variant.
+8535071077,Telegram Bot ID,Telegram bot identifier used by the MAX Messenger takeover variant.
+8535071077:AAFus1ccm-puZ2htZkpKP_UyZfp3FTHFCzg,Telegram Bot Token,Telegram bot token observed handling exfiltration for the MAX Messenger takeover variant.
+-5035652280,Telegram Chat ID,Telegram chat destination used for exfiltration in the MAX Messenger takeover variant.
