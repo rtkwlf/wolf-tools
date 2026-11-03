@@ -4,6 +4,7 @@ Open source tools and scripts by Arctic Wolf:
 
 ## Pack Alerts
 
+- [202611-edgecution-returns-fake-microsoft-updates](pack_alerts/202611-edgecution-returns-fake-microsoft-updates/README.md)
 - [202611-grandoreiro-targets-latam](pack_alerts/202611-grandoreiro-targets-latam/README.md)
 - [202610-colombia-judicial-phishing-delivers-xworm-reused-net-loader](pack_alerts/202610-colombia-judicial-phishing-delivers-xworm-reused-net-loader/README.md)
 - [202610-teams-vishing-s3-lures-deliver-java-source-rat](pack_alerts/202610-teams-vishing-s3-lures-deliver-java-source-rat/README.md)
